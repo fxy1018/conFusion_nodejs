@@ -9,10 +9,6 @@ const promotionSchema = new Schema({
     required: true,
     unique: true
   },
-  image: {
-    type: String,
-    rquired: true
-  },
   label: {
     type: String,
     default: ''
